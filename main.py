@@ -43,7 +43,6 @@ def process_image():
             "adresse": (60, 650, 450, 45),  # Zone "Lieu de naissance"
             "numero_cin": (1150, 780, 300, 45)  # Zone "Numéro CIN"
         }
-
         # Extraction et affichage des résultats
         results = {}
         for key, (x, y, w, h) in zones.items():
